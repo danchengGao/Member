@@ -1,0 +1,45 @@
+#tiles {    
+    -fx-padding: 20;
+    -fx-pref-columns: 3;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-alignment: center;
+}
+
+.label {    
+    -fx-font-family: 'sans-serif';
+    -fx-font-size: 35px;
+    -fx-font-weight: 700;
+    -fx-text-alignment: center;
+    -fx-padding: 0 10 0 10;
+}
+
+.letterLabel {    
+    -fx-font-size: 15px;
+}
+
+#buttonBox {      
+    -fx-alignment: center;
+}
+
+.button {    
+    -fx-background-radius: 5em; 
+    -fx-background-color: #e7e7e7;
+}
+
+.button:pressed {
+    -fx-background-color: #d3d3d3;
+}
+
+#dialButton { 
+    -fx-background-color: #33cc33;
+    -fx-background-image: url('logo.png');
+    -fx-background-size: 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+
+
+
+
